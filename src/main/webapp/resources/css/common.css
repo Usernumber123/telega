@@ -1,0 +1,87 @@
+
+.form-heading {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-size: 40;
+    text-align: center;
+    background-color: white;
+}
+.btn btn-lg btn-primary btn-block{
+
+    margin-top: 10px;
+    font-weight: 700;
+    color: purple;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+.form-signin {
+    width:700px;
+    height: 200px;
+    background-color: darkslateblue;
+    margin: 250px auto 0 auto;
+    text-align: center;
+}
+input[type="text"],input[type="password"]{
+    width: 300px;
+    height:50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-group input {
+    margin-top: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-group button   {
+    margin-top: 10px;
+    font-weight: 700;
+    color: purple;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+
+
+
+
+}
+.form-group button:hover { background: rgb(53, 167, 110); }
+.form-group button:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.has-error {
+    color: red
+}
